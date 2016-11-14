@@ -1,4 +1,4 @@
-app.directive('listItem', function(){
+app.directive('albumItem', function(){
 	return {
 		restrict : 'E',
 		scope : {
