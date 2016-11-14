@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="listaDeCompras">
+<head>
+	<meta charset="UTF-8">
+	<title>Lista de Álbuns</title>
+	<link rel="stylesheet" href="dev/materialize/css/materialize.css">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="dev/css/style.css">
+
+	<script src="dev/angular/angular.min.js"></script>
+</head>
+<body ng-controller="listaDeAlbunsController">
+	<h1 class="teal-text">{{titulo}}</h1>
+	<hr>
+	<div class="row">
+    	<div class="col s12 m4 l2" ng-repeat="album in albuns">
+      		<div class="card">
+      			<list-item info="album"></list-item>
+      		</div>
+     	</div>
+    </div>
+
+	<!-- Modules -->
+	<script src="dev/angular/modules/app.js"></script>
+
+	<!-- Controllers -->
+	<script src="dev/angular/controllers/listaDeAlbuns.js"></script>
+
+	<!-- Directives -->
+	<script src="dev/angular/directives/dadosAlbum.js"></script>
+</body>
+</html>
