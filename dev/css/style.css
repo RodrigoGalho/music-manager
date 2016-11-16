@@ -1,13 +1,46 @@
 body{
-	background: #222;
+	background: url('../img/bg-home.jpg') #1F1F1F right no-repeat;
+	background-size: auto 100%;
+}
+
+h1{
+	border-bottom: 3px solid #111;
+	background: rgba(0, 0, 0, .3);
+	margin-top: 0;
+	padding: 20px 10px 10px 10px
+}
+
+.card{
+	background-color: #000;
 }
 
 .card-image{
 	max-height: 200px;
 	overflow: hidden;
 }
+
+.card-content{
+	color: #999;
+}
+
 .card .card-title{
 	font-size: .9em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+}
+
+.favorite-album{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.collection{
+	border-color: #000
+}
+
+.collection .collection-item{
+	background: #333;
+	color: #999;
+	border-color: #000;
 }

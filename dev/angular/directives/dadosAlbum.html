@@ -1,6 +1,7 @@
 <div class="card-image">
     <img ng-src="{{info.cover}}" alt="{{info.name}}">
     <span class="card-title teal darken-3">{{info.name}}</span>
+    <a href="" class="btn-floating waves-effect favorite-album red" ng-click="info.favoriteToggle()" ng-hide="info.favorite"><i class="material-icons">add</i></a>
 </div>
 <div class="card-content">
     <p>{{info.year}} - {{info.artist}}</p>

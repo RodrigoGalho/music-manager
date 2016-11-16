@@ -1,7 +1,5 @@
 app.controller('listaDeAlbunsController', ['$scope', function($scope){
 
-	$scope.titulo = "Lista de Álbuns";
-
 	$scope.albuns = [
 		{
 			name : "Nine Lives",
